@@ -1,0 +1,19 @@
+# Nested duplicate project
+src/Idrink.pro/
+
+# Git
+.git
+.gitignore
+
+# Local env
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode
+.idea
+
+# Logs
+*.log
+npm-debug.log*
