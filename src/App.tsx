@@ -1,13 +1,13 @@
 import { useState, useMemo } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { Header } from './components/Header';
+import { BottomNav } from './components/BottomNav';
+import { WelcomeScreen } from './components/WelcomeScreen';
 import { Categories } from './components/Categories';
 import { PromoBanner } from './components/PromoBanner';
 import { StoreCard } from './components/StoreCard';
 import { StorePage } from './components/StorePage';
 import { Cart } from './components/Cart';
-import { BottomNav } from './components/BottomNav';
-import { WelcomeScreen } from './components/WelcomeScreen';
 import { MerchantDashboard } from './components/MerchantDashboard';
 import { OrderSuccess } from './components/OrderSuccess';
 import { stores, products } from './data/stores';

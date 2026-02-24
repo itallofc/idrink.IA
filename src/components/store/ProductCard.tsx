@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
-import { Product, CartItem } from '../types';
+import { Product, CartItem } from '../../types';
 
 interface ProductCardProps {
   product: Product;
@@ -32,19 +32,19 @@ export function ProductCard({ product, cartItem, onAdd, onRemove, index }: Produ
           </div>
         )}
       </div>
-      
+
       <div className="p-3">
         <span className="text-xs text-purple-600 font-medium">{product.category}</span>
         <h3 className="font-bold text-gray-800 text-sm mb-1 line-clamp-1">{product.name}</h3>
         <p className="text-xs text-gray-500 mb-2 line-clamp-1">{product.description}</p>
-        
+
         <div className="flex items-center justify-between">
           <div>
             <span className="text-lg font-bold text-purple-600">
               R$ {product.price.toFixed(2).replace('.', ',')}
             </span>
           </div>
-          
+
           {quantity === 0 ? (
             <motion.button
               whileTap={{ scale: 0.9 }}
