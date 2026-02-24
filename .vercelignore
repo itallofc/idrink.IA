@@ -1,6 +1,3 @@
-# Nested duplicate project
-src/Idrink.pro/
-
 # Git
 .git
 .gitignore
