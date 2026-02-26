@@ -1,15 +1,15 @@
 import { useState, useMemo } from 'react';
 import { AnimatePresence } from 'framer-motion';
-import { Header } from './components/Header';
-import { BottomNav } from './components/BottomNav';
-import { WelcomeScreen } from './components/WelcomeScreen';
-import { Categories } from './components/Categories';
-import { PromoBanner } from './components/PromoBanner';
-import { StoreCard } from './components/StoreCard';
-import { StorePage } from './components/StorePage';
-import { Cart } from './components/Cart';
-import { MerchantDashboard } from './components/MerchantDashboard';
-import { OrderSuccess } from './components/OrderSuccess';
+import { Header } from './components/layout/Header';
+import { BottomNav } from './components/layout/BottomNav';
+import { WelcomeScreen } from './components/home/WelcomeScreen';
+import { Categories } from './components/home/Categories';
+import { PromoBanner } from './components/home/PromoBanner';
+import { StoreCard } from './components/home/StoreCard';
+import { StorePage } from './components/store/StorePage';
+import { Cart } from './components/cart/Cart';
+import { MerchantDashboard } from './components/merchant/MerchantDashboard';
+import { OrderSuccess } from './components/order/OrderSuccess';
 import { stores, products } from './data/stores';
 import { Store, Product, CartItem, UserType } from './types';
 
